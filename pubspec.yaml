@@ -1,0 +1,68 @@
+name: flutter_with_firebase
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_tabler_icons: ^1.43.0
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  shared_preferences: ^2.5.3
+  cloud_firestore: ^5.6.6
+  image_picker: ^1.1.2
+  firebase_storage: ^12.4.5
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/background.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Open_Sans
+      fonts:
+        - asset: fonts/Open_Sans/OpenSans-Bold.ttf
+        - asset: fonts/Open_Sans/OpenSans-Regular.ttf
+        - asset: fonts/Open_Sans/OpenSans-SemiBold.ttf
+        - asset: fonts/Open_Sans/OpenSans-Italic.ttf
+          style: italic
+
+
+
+/users/{uid}/progress:
+
+  start_date: timestamp,
+  last_opened: timestamp,
+  total_days: 50
+
+
