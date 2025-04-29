@@ -143,7 +143,7 @@ class _GalleryPageState extends State<GalleryPage> {
           Container(
             width: double.infinity,
             height: 60,
-            color: Colors.pink,
+            color:const Color(0xffee4176),
             child: TextButton.icon(
               onPressed: _pickImage,
               icon: const Icon(Icons.upload, color: Color(0xfffef4f5)),
