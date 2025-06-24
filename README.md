@@ -1,4 +1,6 @@
-# flutter_with_firebase
+# flutter_with_firebase No fap app
+
+*** I made this app using AI tool called "Chat GPT" for generate code and figma for design and this includes firebase to store user data and notes ***
 
 A new Flutter project.
 
