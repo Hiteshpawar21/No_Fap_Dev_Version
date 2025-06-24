@@ -2,7 +2,7 @@
 
 WARNING!!
 WARNING!!
-*** I made this app using AI tool called "Chat GPT" for generate code and figma for design and this version of NO FAP contains "firebase to store user data and notes" ***
+*** I made this app using AI tool called "Chat GPT" for generate code and figma for design and this version of NO FAP contains "FIREBASE to store user data and notes" ***
 
 A new Flutter project.
 
